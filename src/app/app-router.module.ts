@@ -16,6 +16,10 @@ const routes: Routes = [
     loadChildren: "./pt/pt.module#PtModule"
   },
   {
+    path: "coche",
+    loadChildren: "./coche/coche.module#CocheModule"
+  },
+  {
     path: "**",
     redirectTo: "spain"
   }

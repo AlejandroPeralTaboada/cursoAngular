@@ -6,6 +6,8 @@ import { Component } from "@angular/core";
     <a routerLink="spain" >España</a>
     <a routerLink="italy" >Italy</a>
     <a routerLink="portugal" >Portugal</a>
+    <a routerLink="coche" >Coche</a>
+
     <router-outlet></router-outlet>
   `,
   styles: []

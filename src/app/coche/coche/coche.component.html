@@ -1,0 +1,7 @@
+<cmd-salpicadero [velocidad]="velocidad"
+                 [marcha]="numeroMarcha"></cmd-salpicadero>
+<cmd-pedalera (acelerar)="acelerar($event)"
+              (frenar)="frenar($event)"></cmd-pedalera>
+<cmd-caja-cambios [velocidad]="velocidad"
+                  [marchas]="marchas"
+                  (cambiarMarcha)="cambiarMarcha($event)"></cmd-caja-cambios>

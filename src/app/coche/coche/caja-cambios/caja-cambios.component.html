@@ -1,0 +1,6 @@
+<div class="cajaCambios">
+  <button *ngFor="let marcha of marchas"
+          [disabled]="!puedoCambiarMarcha(marcha)"
+          (click)=cambiarMarcha.next(marcha.numeroMarcha)>{{marcha.numeroMarcha}}
+  </button>
+</div>
